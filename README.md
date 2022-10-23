@@ -1,4 +1,4 @@
-# A Trasnfer Adversarial Attack Papers
+# Trasnfer Adversarial Attack Literature
 
 ## General Techniques (e.g., loss function, model ensemble) and Analyses
 + [Delving into Transferable Adversarial Examples and Black-box Attacks (ICLR 2017)](https://arxiv.org/abs/1611.02770)
