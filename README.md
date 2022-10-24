@@ -1,6 +1,6 @@
 # TransAdvBench: Transfer Adversarial Attack Benchmark 
 
-This repository provides the first benchmark of transfer adversarial attacks.
+This repository describes the first benchmark of transfer adversarial attacks.
 In particular, the new *attack categorization* ensures that our evaluation is *systematic* and *fair*.
 TransAdvBench currently evaluates 23 representative attacks against 9 representative defenses on ImageNet, in terms of both the attack *transferability* and *stealthiness*.
 We would continuously incorporate new attacks and hope TransAdvBench could serve as a guide to evaluating transfer adversarial attacks.
