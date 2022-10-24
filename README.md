@@ -9,13 +9,13 @@ If interested, you can find more details in our arXiv paper: [Revisiting and Ben
 
 ## Attack categorization
 
-### Gradient Stabilization Attacks [[Our implementations]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/Attacks/gradient_stabilization.py)
+### Gradient Stabilization Attacks [[Our implementations]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/attacks/gradient_stabilization.py)
 + [Boosting Adversarial Attacks with Momentum (CVPR 2018)](https://arxiv.org/abs/1710.06081)
 + [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks (ICLR 2020)](https://arxiv.org/abs/1908.06281)
 + [Boosting Adversarial Transferability through Enhanced Momentum (BMVC 2021)](https://arxiv.org/abs/2103.10609)
 + [Improving Adversarial Transferability with Spatial Momentum (arXiv 2022)](https://arxiv.org/abs/2203.13479)
 
-### Input Augmentation Attacks [[Our implementations]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/Attacks/input_augmentation.py)
+### Input Augmentation Attacks [[Our implementations]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/attacks/input_augmentation.py)
 + [Improving Transferability of Adversarial Examples with Input Diversity (CVPR 2019)](https://arxiv.org/abs/1803.06978)
 + [Evading Defenses to Transferable Adversarial Examples by Translation-Invariant Attacks (CVPR 2019)](https://arxiv.org/abs/1904.02884)
 + [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks (ICLR 2020)](https://arxiv.org/abs/1908.06281)
@@ -28,7 +28,7 @@ If interested, you can find more details in our arXiv paper: [Revisiting and Ben
 + [Boosting the Transferability of Adversarial Attacks with Reverse Adversarial Perturbation (NeurIPS 2022)](https://arxiv.org/abs/2210.05968)
 + [Incorporating Locality of Images to Generate Targeted Transferable Adversarial Examples (arXiv 2022)](https://arxiv.org/abs/2209.03716)
 
-### Feature Disruption Attacks [[Our implementations]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/Attacks/feature_disruption.py)
+### Feature Disruption Attacks [[Our implementations]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/attacks/feature_disruption.py)
 + [Transferable Adversarial Perturbations (ECCV 2018)](https://openaccess.thecvf.com/content_ECCV_2018/html/Bruce_Hou_Transferable_Adversarial_Perturbations_ECCV_2018_paper.html)
 + [Task-generalizable Adversarial Attack based on Perceptual Metric (arXiv 2018)](https://arxiv.org/abs/1811.09020)
 + [Feature Space Perturbations Yield More Transferable Adversarial Examples (CVPR 2019)](https://openaccess.thecvf.com/content_CVPR_2019/html/Inkawhich_Feature_Space_Perturbations_Yield_More_Transferable_Adversarial_Examples_CVPR_2019_paper.html)
@@ -41,7 +41,7 @@ If interested, you can find more details in our arXiv paper: [Revisiting and Ben
 + [Feature Importance-aware Transferable Adversarial Attacks (ICCV 2021)](https://arxiv.org/abs/2107.14185)
 + [Improving Adversarial Transferability via Neuron Attribution-Based Attacks (CVPR 2022)](https://arxiv.org/abs/2204.00008)
 
-### Surrogate Refinement Attacks [[Our implementations]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/Attacks/surrogate_refinement.py)
+### Surrogate Refinement Attacks [[Our implementations]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/attacks/surrogate_refinement.py)
 + [Learning Transferable Adversarial Examples via Ghost Networks (AAAI 2020)](https://arxiv.org/abs/1812.03413)
 + [Skip Connections Matter: On the Transferability of Adversarial Examples Generated with ResNets (ICLR 2020)](https://arxiv.org/abs/2002.05990)
 + [Backpropagating Linearly Improves Transferability of Adversarial Examples (NeurIPS 2020)](https://arxiv.org/abs/2012.03528)
@@ -52,7 +52,7 @@ If interested, you can find more details in our arXiv paper: [Revisiting and Ben
 + [Rethinking Adversarial Transferability from a Data Distribution Perspective (ICLR 2022)](https://openreview.net/forum?id=gVRhIEajG1k)
 + [Boosting the Adversarial Transferability of Surrogate Model with Dark Knowledge (arXiv 2022)](https://arxiv.org/abs/2206.08316)
 
-### Generative Modeling Attacks [[Our implementations]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/Attacks/generative_modeling.py)
+### Generative Modeling Attacks [[Our implementations]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/attacks/generative_modeling.py)
 + [Generative Adversarial Perturbations (CVPR 2018)](https://arxiv.org/abs/1712.02328)
 + [Cross-Domain Transferability of Adversarial Perturbations (NeurIPS 2019)](https://arxiv.org/abs/1905.11736)
 + [On Generating Transferable Targeted Perturbations (ICCV 2021)](https://arxiv.org/abs/2103.14641)
