@@ -1,7 +1,13 @@
-# Transfer Adversarial Attack Literature
-## Table of Contents
-- [Survey](#Gradient-Stabilization-Attacks)
-## General Techniques (e.g., loss function, model ensemble) and Analyses
+# Revisiting and Benchmarking Transfer Adversarial Attacks
+
+This repository provides a new **categorization** and the first **benchmark** of existing work on transfer adversarial attacks.
+The new attack categorization facilitates our *systematic* and *fair* revisting evaluation.
+Our benchmark, called TransAdvBench, currently evaluates 23 representative attacks against 9 representative defenses on ImageNet, in terms of both the attack *transferability* and *stealthiness*.
+We would continuously incorporate new attacks and hope TransAdvBench could serve as a guide to evaluating transfer adversarial attacks.
+
+If interested, you can find more details in our arXiv paper: [Revisiting and Benchmarking Transfer Adversarial Attacks](https://github.com/ZhengyuZhao/TransAdvBench). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes.
+
+## General Attack Analyses
 + [Delving into Transferable Adversarial Examples and Black-box Attacks (ICLR 2017)](https://arxiv.org/abs/1611.02770)
 + [Why Do Adversarial Attacks Transfer? Explaining Transferability of Evasion and Poisoning Attacks (USENIX Security 2019)](https://arxiv.org/abs/1809.02861)
 + [Towards Transferable Targeted Attack (CVPR 2020)](https://openaccess.thecvf.com/content_CVPR_2020/html/Li_Towards_Transferable_Targeted_Attack_CVPR_2020_paper.html)
@@ -10,13 +16,14 @@
 + [Evaluating Adversarial Attacks on ImageNet: A Reality Check on Misclassification Classes (NeurIPSw 2021)](https://arxiv.org/abs/2111.11056)
 + [Investigating Top-k White-Box and Transferable Black-Box Attack (CVPR 2022)](https://arxiv.org/abs/2204.00089)
 
-## Gradient Stabilization Attacks
+## Attack categorization
+### Gradient Stabilization Attacks [[Our implementations]]()
 + [Boosting Adversarial Attacks with Momentum (CVPR 2018)](https://arxiv.org/abs/1710.06081)
 + [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks (ICLR 2020)](https://arxiv.org/abs/1908.06281)
 + [Boosting Adversarial Transferability through Enhanced Momentum (BMVC 2021)](https://arxiv.org/abs/2103.10609)
 + [Improving Adversarial Transferability with Spatial Momentum (arXiv 2022)](https://arxiv.org/abs/2203.13479)
 
-## Input Augmentation Attacks
+### Input Augmentation Attacks [[Our implementations]]()
 + [Improving Transferability of Adversarial Examples with Input Diversity (CVPR 2019)](https://arxiv.org/abs/1803.06978)
 + [Evading Defenses to Transferable Adversarial Examples by Translation-Invariant Attacks (CVPR 2019)](https://arxiv.org/abs/1904.02884)
 + [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks (ICLR 2020)](https://arxiv.org/abs/1908.06281)
@@ -29,7 +36,7 @@
 + [Boosting the Transferability of Adversarial Attacks with Reverse Adversarial Perturbation (NeurIPS 2022)](https://arxiv.org/abs/2210.05968)
 + [Incorporating Locality of Images to Generate Targeted Transferable Adversarial Examples (arXiv 2022)](https://arxiv.org/abs/2209.03716)
 
-## Feature Disruption Attacks
+### Feature Disruption Attacks [[Our implementations]]()
 + [Transferable Adversarial Perturbations (ECCV 2018)](https://openaccess.thecvf.com/content_ECCV_2018/html/Bruce_Hou_Transferable_Adversarial_Perturbations_ECCV_2018_paper.html)
 + [Task-generalizable Adversarial Attack based on Perceptual Metric (arXiv 2018)](https://arxiv.org/abs/1811.09020)
 + [Feature Space Perturbations Yield More Transferable Adversarial Examples (CVPR 2019)](https://openaccess.thecvf.com/content_CVPR_2019/html/Inkawhich_Feature_Space_Perturbations_Yield_More_Transferable_Adversarial_Examples_CVPR_2019_paper.html)
@@ -41,7 +48,7 @@
 + [Feature Importance-aware Transferable Adversarial Attacks (ICCV 2021)](https://arxiv.org/abs/2107.14185)
 + [Improving Adversarial Transferability via Neuron Attribution-Based Attacks (CVPR 2022)](https://arxiv.org/abs/2204.00008)
 
-## Surrogate Refinement Attacks
+### Surrogate Refinement Attacks [[Our implementations]]()
 + [Learning Transferable Adversarial Examples via Ghost Networks (AAAI 2020)](https://arxiv.org/abs/1812.03413)
 + [Skip Connections Matter: On the Transferability of Adversarial Examples Generated with ResNets (ICLR 2020)](https://arxiv.org/abs/2002.05990)
 + [Backpropagating Linearly Improves Transferability of Adversarial Examples (NeurIPS 2020)](https://arxiv.org/abs/2012.03528)
@@ -52,7 +59,7 @@
 + [Rethinking Adversarial Transferability from a Data Distribution Perspective (ICLR 2022)](https://openreview.net/forum?id=gVRhIEajG1k)
 + [Boosting the Adversarial Transferability of Surrogate Model with Dark Knowledge (arXiv 2022)](https://arxiv.org/abs/2206.08316)
 
-## Generative Modeling Attacks
+### Generative Modeling Attacks [[Our implementations]]()
 + [Generative Adversarial Perturbations (CVPR 2018)](https://arxiv.org/abs/1712.02328)
 + [Cross-Domain Transferability of Adversarial Perturbations (NeurIPS 2019)](https://arxiv.org/abs/1905.11736)
 + [On Generating Transferable Targeted Perturbations (ICCV 2021)](https://arxiv.org/abs/2103.14641)
