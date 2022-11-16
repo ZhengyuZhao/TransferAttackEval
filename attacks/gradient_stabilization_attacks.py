@@ -1,36 +1,24 @@
 import numpy as np
-import cv2
 import os
-import pdb
-import pickle
-import math
 import torch
 import torch.nn as nn
-import torch.optim as optim
-import torch.utils.data as Data
-import torch.nn.functional as F
-
 import torchvision.utils
 from torchvision import models
-import torchvision.datasets as dsets
 import torchvision.transforms as transforms
-import random
-
-import matplotlib.pyplot as plt
-import scipy.io as si
-import shutil
+from torchvision.models import ResNet50_Weights,Inception_V3_Weights,DenseNet121_Weights,VGG19_BN_Weights
 from utils_data import *
 
 #resnet50 inception_v3 densenet121 vgg16_bn
 use_cuda = True
 device = torch.device("cuda" if use_cuda else "cpu")
 
-model_tar_1 = models.resnet50(pretrained=True)
-model = models.inception_v3(pretrained=True,transform_input=True).eval()
-model_tar_2 = models.densenet121(pretrained=True).eval()
-model_tar_3 = models.vgg19_bn(pretrained=True).eval()
+model_tar_1 = models.resnet50(weights=ResNet50_Weights.IMAGENET1K_V1)
+model = models.inception_v3(weights=Inception_V3_Weights.IMAGENET1K_V1,transform_input=True).eval()
+model_tar_2 = models.densenet121(weights=DenseNet121_Weights.IMAGENET1K_V1).eval()
+model_tar_3 = models.vgg19_bn(weights=VGG19_BN_Weights.IMAGENET1K_V1).eval()
 
-
+mean = [0.485, 0.456, 0.406]
+std = [0.229, 0.224, 0.225]   
 preprocess_layer = Preprocessing_Layer(mean,std)
 
 model = nn.Sequential(preprocess_layer, model).eval()
@@ -59,8 +47,7 @@ transforms.ToTensor(),
  
 # image_size = 299 for inception_v3 and image_size = 224 for resnet50, densenet121, and vgg16_bn  
 image_size = 299
-mean = [0.485, 0.456, 0.406]
-std = [0.229, 0.224, 0.225]    
+ 
 if image_size ==299:
     transform = transform_299
 else:
@@ -68,7 +55,7 @@ else:
 
     
 val_json = '../TransF5000_val.json'
-val_loader = torch.utils.data.DataLoader(ImagePathDataset.from_path(config_path = val_json,transform=transform,return_paths=True),batch_size=40, shuffle=True,num_workers=1, pin_memory=True)
+val_loader = torch.utils.data.DataLoader(ImagePathDataset.from_path(config_path = val_json,transform=transform,return_paths=True),batch_size=50, shuffle=False,num_workers=1, pin_memory=True)
 
 epsilon = 16.0 / 255.0
 step_size = 2.0 / 255.0
@@ -81,8 +68,10 @@ multi_copies = 5
 save_dir = os.path.join('../out','PGD','incv3')
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
-pos = np.zeros((3,num_iteration // check_point))
-    
+suc = np.zeros((3,num_iteration // check_point))
+
+# for i in range(1):
+#     ((images, labels), path)= next(iter(val_loader))
 for i, ((images, labels), path) in enumerate(val_loader):
     images = images.to(device)
     labels = labels.to(device)
@@ -103,20 +92,21 @@ for i, ((images, labels), path) in enumerate(val_loader):
         flag = (j+1) % check_point
         if flag == 0:
             point = j // check_point
-            pos[0,point] = pos[0,point] + sum(torch.argmax(model_tar_1(img),dim=1) != labels).cpu().numpy()
-            pos[1,point] = pos[1,point] + sum(torch.argmax(model_tar_2(img),dim=1) != labels).cpu().numpy()
-            pos[2,point] = pos[2,point] + sum(torch.argmax(model_tar_3(img),dim=1) != labels).cpu().numpy()
+            suc[0,point] = suc[0,point] + sum(torch.argmax(model_tar_1(img),dim=1) != labels).cpu().numpy()
+            suc[1,point] = suc[1,point] + sum(torch.argmax(model_tar_2(img),dim=1) != labels).cpu().numpy()
+            suc[2,point] = suc[2,point] + sum(torch.argmax(model_tar_3(img),dim=1) != labels).cpu().numpy()
         if j == 49: 
             save_images(img.detach().cpu().numpy(), img_list=path, idx=len(path), output_dir=save_dir)
-print(pos)
+print('PGD success rate:')
+print(suc/5000)
 
 
 # MI
 save_dir = os.path.join('../out','MI','incv3')
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
-pos = np.zeros((3,num_iteration // check_point))
-    
+suc = np.zeros((3,num_iteration // check_point))
+     
 for i, ((images, labels), path) in enumerate(val_loader):
     images = images.to(device)
     labels = labels.to(device)
@@ -141,20 +131,21 @@ for i, ((images, labels), path) in enumerate(val_loader):
         flag = (j+1) % check_point
         if flag == 0:
             point = j // check_point
-            pos[0,point] = pos[0,point] + sum(torch.argmax(model_tar_1(img),dim=1) != labels).cpu().numpy()
-            pos[1,point] = pos[1,point] + sum(torch.argmax(model_tar_2(img),dim=1) != labels).cpu().numpy()
-            pos[2,point] = pos[2,point] + sum(torch.argmax(model_tar_3(img),dim=1) != labels).cpu().numpy()
+            suc[0,point] = suc[0,point] + sum(torch.argmax(model_tar_1(img),dim=1) != labels).cpu().numpy()
+            suc[1,point] = suc[1,point] + sum(torch.argmax(model_tar_2(img),dim=1) != labels).cpu().numpy()
+            suc[2,point] = suc[2,point] + sum(torch.argmax(model_tar_3(img),dim=1) != labels).cpu().numpy()
         if j == 9: 
             save_images(img.detach().cpu().numpy(), img_list=path, idx=len(path), output_dir=save_dir)
-print(pos)
+print('MI success rate:')
+print(suc/5000)
 
 
 # NI
 save_dir = os.path.join('../out','NI','incv3')
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
-pos = np.zeros((3,num_iteration // check_point))
-    
+suc = np.zeros((3,num_iteration // check_point))
+
 for i, ((images, labels), path) in enumerate(val_loader):
     images = images.to(device)
     labels = labels.to(device)
@@ -178,20 +169,21 @@ for i, ((images, labels), path) in enumerate(val_loader):
         flag = (j+1) % check_point
         if flag == 0:
             point = j // check_point
-            pos[0,point] = pos[0,point] + sum(torch.argmax(model_tar_1(img),dim=1) != labels).cpu().numpy()
-            pos[1,point] = pos[1,point] + sum(torch.argmax(model_tar_2(img),dim=1) != labels).cpu().numpy()
-            pos[2,point] = pos[2,point] + sum(torch.argmax(model_tar_3(img),dim=1) != labels).cpu().numpy()
+            suc[0,point] = suc[0,point] + sum(torch.argmax(model_tar_1(img),dim=1) != labels).cpu().numpy()
+            suc[1,point] = suc[1,point] + sum(torch.argmax(model_tar_2(img),dim=1) != labels).cpu().numpy()
+            suc[2,point] = suc[2,point] + sum(torch.argmax(model_tar_3(img),dim=1) != labels).cpu().numpy()
             
         if j == 9: 
             save_images(img.detach().cpu().numpy(), img_list=path, idx=len(path), output_dir=save_dir)
-print(pos)
+print('NI success rate:')
+print(suc/5000)
 
 
 # PI
 save_dir = os.path.join('../out','PI','incv3')
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
-pos = np.zeros((3,num_iteration // check_point))
+suc = np.zeros((3,num_iteration // check_point))
 
 for i, ((images, labels), path) in enumerate(val_loader):
     images = images.to(device)
@@ -218,9 +210,10 @@ for i, ((images, labels), path) in enumerate(val_loader):
         flag = (j+1) % check_point
         if flag == 0:
             point = j // check_point
-            pos[0,point] = pos[0,point] + sum(torch.argmax(model_tar_1(img),dim=1) != labels).cpu().numpy()
-            pos[1,point] = pos[1,point] + sum(torch.argmax(model_tar_2(img),dim=1) != labels).cpu().numpy()
-            pos[2,point] = pos[2,point] + sum(torch.argmax(model_tar_3(img),dim=1) != labels).cpu().numpy()
+            suc[0,point] = suc[0,point] + sum(torch.argmax(model_tar_1(img),dim=1) != labels).cpu().numpy()
+            suc[1,point] = suc[1,point] + sum(torch.argmax(model_tar_2(img),dim=1) != labels).cpu().numpy()
+            suc[2,point] = suc[2,point] + sum(torch.argmax(model_tar_3(img),dim=1) != labels).cpu().numpy()
         if j == 9: 
             save_images(img.detach().cpu().numpy(), img_list=path, idx=len(path), output_dir=save_dir)       
-print(pos)
+print('PI success rate:')
+print(suc/5000)
