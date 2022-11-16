@@ -5,7 +5,7 @@ In particular, the new *attack categorization* ensures that our evaluation is *s
 We currently evaluate 23 representative attacks against 9 representative defenses on ImageNet, in terms of both the attack *transferability* and *stealthiness*.
 We would continuously incorporate new attacks and hope TransAdvBench could serve as a guide to evaluating transfer adversarial attacks.
 
-If interested, you can find more details in our arXiv paper: [Revisiting and Benchmarking Transfer Adversarial Attacks](https://github.com/ZhengyuZhao/TransAdvBench). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes.
+If interested, you can find more details in our paper: [Revisiting and Benchmarking Transfer Adversarial Attacks](https://github.com/ZhengyuZhao/TransAdvBench). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes.
 
 ## Attack categorization
 
