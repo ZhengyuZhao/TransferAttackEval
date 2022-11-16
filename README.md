@@ -1,11 +1,15 @@
 # Evaluating Transfer Adversarial Attacks 
 
-This repository describes a comprehensive evaluation of transfer adversarial attacks.
-In particular, the new *attack categorization* ensures that our evaluation is *systematic* and *fair*.
-We currently evaluate 23 representative attacks against 9 representative defenses on ImageNet, in terms of both the attack *transferability* and *stealthiness*.
-We would continuously incorporate new attacks and hope TransAdvBench could serve as a guide to evaluating transfer adversarial attacks.
+This repository provides the code for our paper: [Towards Good Practices in Evaluating Transfer Adversarial Attacks](https://github.com/ZhengyuZhao/TransAdvBench). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes.
 
-If interested, you can find more details in our paper: [Towards Good Practices in Evaluating Transfer Adversarial Attacks](https://github.com/ZhengyuZhao/TransAdvBench). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes.
+
+In this work, we design good practices in evaluating transfer adversarial attacks.
+We first introduce a new attack categorization, which enables our systematic and fair analyses of similar attacks in each specific category.
+Our analyses lead to new findings that complement or even challenge existing knowledge.
+Furthermore, we comprehensively evaluate 23 representative attacks against 9 defenses on ImageNet.
+We pay particular attention to attack stealthiness, by adopting diverse imperceptibility metrics and looking into new, finer-grained characteristics.
+Our evaluation reveals new important insights: 1) Transferability is highly contextual, and some white-box defenses may give a false sense of security since they are actually vulnerable to (black-box) transfer attacks; 
+2) All transfer attacks are less stealthy, and their stealthiness can vary dramatically under the same $L_{\infty}$ bound.
 
 ## Attack categorization
 
