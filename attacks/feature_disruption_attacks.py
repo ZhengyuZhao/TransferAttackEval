@@ -11,6 +11,7 @@ import torchvision
 from torchvision import transforms
 import pickle
 from tqdm import tqdm
+from utils_data import generate_data_pickle
 
 
 # helpers
@@ -834,6 +835,9 @@ class Namespace:
 
 ## Demos
 if __name__ == '__main__':
+    # Generate the data pickle
+    generate_data_pickle()
+    
     opt = Namespace(modeltype='ResNet50', layerindex=2, filename='ResNet50_ILA_16_50_2_2_ifgsm', niters=50, epsilon=16./255., learning_rate=2./255.)
     adv_image_dict = run_attack(ILA)
     # opt = Namespace(modeltype='ResNet50', layerindex=2, filename='ResNet50_FIA_16_50_2_2', niters=50, epsilon=16./255., learning_rate=2./255.)
