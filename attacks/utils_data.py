@@ -5,6 +5,8 @@ from torch.utils.data import Dataset, DataLoader
 from PIL import Image
 from torchvision.datasets.vision import VisionDataset
 from torchvision.datasets.folder import default_loader, IMG_EXTENSIONS
+import json
+import pickle
 
 import pyutils.io as io
 
@@ -154,3 +156,26 @@ def save_images(images, img_list, idx, output_dir):
 
         im = Image.fromarray(cur_images)
         im.save('{}.png'.format(os.path.join(output_dir, filename[:-5])))
+
+def generate_data_pickle():
+    all_image = dict()
+    label_dict = dict()
+
+    with open('../imagenet_class_index.json') as f:
+        data = json.load(f)    
+        for i in data.keys():
+            label_dict[data[i][0]] = int(i)        
+
+    for root, dirs, files in os.walk('../val5000'):
+        for name in dirs:
+            dir_name = os.path.join(root, name)        
+            image_list = []
+            for root_, dirs_, files_ in os.walk(dir_name):                
+                for name_ in files_:
+                    obj = Image.open(os.path.join(root_, name_))
+                    obj = obj.convert('RGB')                                                            
+                    image_list.append(obj)                                    
+            all_image[label_dict[name]] = image_list                                    
+
+    with open('data.pickle', 'wb') as f:
+        pickle.dump(all_image, f, pickle.HIGHEST_PROTOCOL)

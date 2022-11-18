@@ -758,6 +758,7 @@ def run_attack(attack, use_Inc_model = False):
 
     # image data and labels are packed with Pickle as a dictionary
     # key: true label, value: the list of images corresponding to the true label
+    # It can be generated using `generate_data_pickle` in utils_data.py
     with open('data.pickle', 'rb') as f:
         image_dict = pickle.load(f)
         
