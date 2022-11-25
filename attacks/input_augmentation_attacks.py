@@ -313,6 +313,7 @@ for i, ((images, labels), path) in enumerate(val_loader):
         img_x.requires_grad_(True) 
         input_grad = 0
         for c in range(multi_copies):
+            #For a dataset of 5000 images with 5 images per class, this simple random selection will almost always (4995/5000=99.9%) yield an image from a different class.
             img_other = img[torch.randperm(img.shape[0])].view(img.size())
             logits = model(img_x + 0.2 * img_other)
             loss = nn.CrossEntropyLoss(reduction='sum')(logits,labels)
