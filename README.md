@@ -46,6 +46,7 @@ Our evaluation reveals new important insights: 1) Transferability is highly cont
 + [Perturbing Across the Feature Hierarchy to Improve Standard and Strict Blackbox Attack Transferability (NeurIPS 2020)](https://proceedings.neurips.cc/paper/2020/hash/eefc7bfe8fd6e2c8c01aa6ca7b1aab1a-Abstract.html)
 + [Feature Importance-aware Transferable Adversarial Attacks (ICCV 2021)](https://arxiv.org/abs/2107.14185)
 + [Improving Adversarial Transferability via Neuron Attribution-Based Attacks (CVPR 2022)](https://arxiv.org/abs/2204.00008)
++ [An Intermediate-level Attack Framework on The Basis of Linear Regression (TPAMI 2022)](https://arxiv.org/abs/2203.10723)
 
 ### Surrogate Refinement Attacks [[Our implementation]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/attacks/surrogate_refinement.py)
 + [Learning Transferable Adversarial Examples via Ghost Networks (AAAI 2020)](https://arxiv.org/abs/1812.03413)
@@ -66,7 +67,7 @@ Our evaluation reveals new important insights: 1) Transferability is highly cont
 + [Beyond ImageNet Attack: Towards Crafting Adversarial Examples for Black-box Domains (ICLR 2022)](https://arxiv.org/abs/2201.11528) [[code]](https://github.com/Alibaba-AAIG/Beyond-ImageNet-Attack)
 + [Boosting Transferability of Targeted Adversarial Examples via Hierarchical Generative Networks (ECCV 2022)](https://arxiv.org/abs/2107.01809) [[code]](https://github.com/ShawnXYang/C-GSP)
 
-## Other Interesting Analyses of Transfer Adversarial Attacks
+## Other General Analyses of Transfer Adversarial Attacks
 + [Delving into Transferable Adversarial Examples and Black-box Attacks (ICLR 2017)](https://arxiv.org/abs/1611.02770)
 + [The Space of Transferable Adversarial Examples (arXiv 2017)](https://arxiv.org/abs/1704.03453)
 + [Why Do Adversarial Attacks Transfer? Explaining Transferability of Evasion and Poisoning Attacks (USENIX Security 2019)](https://arxiv.org/abs/1809.02861)
