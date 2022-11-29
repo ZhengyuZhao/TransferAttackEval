@@ -1,6 +1,6 @@
 # Evaluating Transfer Adversarial Attacks 
 
-This repository provides the code for our paper: [Towards Good Practices in Evaluating Transfer Adversarial Attacks](https://github.com/ZhengyuZhao/TransAdvBench). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes.
+This repository provides the code for our paper: [Towards Good Practices in Evaluating Transfer Adversarial Attacks](https://arxiv.org/abs/2211.09565). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes.
 
 
 In this work, we design good practices in evaluating transfer adversarial attacks.
