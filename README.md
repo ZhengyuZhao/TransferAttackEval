@@ -11,7 +11,7 @@ We pay particular attention to attack stealthiness, by adopting diverse impercep
 Our evaluation reveals new important insights: 1) Transferability is highly contextual, and some white-box defenses may give a false sense of security since they are actually vulnerable to (black-box) transfer attacks; 
 2) All transfer attacks are less stealthy, and their stealthiness can vary dramatically under the same $L_{\infty}$ bound.
 
-## Attack categorization
+## Transfer Attack Categorization
 
 ### Gradient Stabilization Attacks [[Our implementation]](https://github.com/ZhengyuZhao/TransAdvBench/blob/main/attacks/gradient_stabilization.py)
 + [Boosting Adversarial Attacks with Momentum (CVPR 2018)](https://arxiv.org/abs/1710.06081)
