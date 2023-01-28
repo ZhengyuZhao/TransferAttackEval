@@ -71,6 +71,15 @@ model_tar_1 = nn.Sequential(preprocess_layer, model_tar_1).eval()
 model_tar_2 = nn.Sequential(preprocess_layer, model_tar_2).eval()
 model_tar_3 = nn.Sequential(preprocess_layer, model_tar_3).eval()
 
+for param in model.parameters():
+    param.requires_grad = False  
+for param in model_tar_1.parameters():
+    param.requires_grad = False  
+for param in model_tar_2.parameters():
+    param.requires_grad = False  
+for param in model_tar_3.parameters():
+    param.requires_grad = False  
+
 # model.eval()
 model.to(device)
 model_tar_1.to(device)
