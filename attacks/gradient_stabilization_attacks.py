@@ -61,7 +61,6 @@ epsilon = 16.0 / 255.0
 step_size = 2.0 / 255.0
 num_iteration = 100
 check_point = 5
-multi_copies = 5
 
 
 # PGD (baseline)
