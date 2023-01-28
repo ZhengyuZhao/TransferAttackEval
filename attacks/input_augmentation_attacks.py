@@ -120,8 +120,6 @@ for i, ((images, labels), path) in enumerate(val_loader):
     images = images.to(device)
     labels = labels.to(device)
     img = images.clone()
-    if i==10:
-        break
     for j in range(num_iteration):
         img_x = img + img.new_zeros(img.size())
         img_x.requires_grad_(True)
@@ -165,8 +163,6 @@ for i, ((images, labels), path) in enumerate(val_loader):
     images = images.to(device)
     labels = labels.to(device)
     img = images.clone()
-    if i==10:
-        break
     for j in range(num_iteration):
         img_x = img + img.new_zeros(img.size())
         img_x.requires_grad_(True)
@@ -212,8 +208,6 @@ for i, ((images, labels), path) in enumerate(val_loader):
     images = images.to(device)
     labels = labels.to(device)
     img = images.clone()
-    if i==10:
-        break
     for j in range(num_iteration):
         img_x = img + img.new_zeros(img.size())
         img_x.requires_grad_(True)
@@ -259,8 +253,6 @@ for i, ((images, labels), path) in enumerate(val_loader):
     labels = labels.to(device)
     img = images.clone()
     variance = 0
-    if i==10:
-        break
     for j in range(num_iteration):
         img_x = img
         img_x.requires_grad_(True)
@@ -306,8 +298,6 @@ for i, ((images, labels), path) in enumerate(val_loader):
     images = images.to(device)
     labels = labels.to(device)
     img = images.clone()
-    if i==10:
-        break
     for j in range(num_iteration):
         img_x = img
         img_x.requires_grad_(True) 
