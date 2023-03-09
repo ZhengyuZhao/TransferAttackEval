@@ -3,16 +3,19 @@
 This repository provides the code for our paper: [Towards Good Practices in Evaluating Transfer Adversarial Attacks](https://arxiv.org/abs/2211.09565). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes.
 
 
-In this work, we design good practices in evaluating transfer adversarial attacks.
-We first introduce a new attack categorization, which enables our systematic and fair analyses of similar attacks in each specific category.
-Our analyses lead to new findings that complement or even challenge existing knowledge.
-Furthermore, we comprehensively evaluate 23 representative attacks against 9 defenses on ImageNet.
-We pay particular attention to attack stealthiness, by adopting diverse imperceptibility metrics and looking into new, finer-grained characteristics.
-Our evaluation reveals new important insights: 1) Transferability is highly contextual, and some white-box defenses may give a false sense of security since they are actually vulnerable to (black-box) transfer attacks; 
-2) All transfer attacks are less stealthy, and their stealthiness can vary dramatically under the same $L_{\infty}$ bound.
+Transfer adversarial attacks raise critical security concerns in real-world, black-box scenarios.
+However, the actual progress of this field is difficult to assess due to two common limitations in existing evaluations.
+First, different methods are often not systematically and fairly evaluated in a one-to-one comparison.
+Second, only transferability is evaluated but another key attack property, stealthiness, is largely overlooked. 
+In this work, we design good practices to address these limitations, and we present the first comprehensive evaluation of transfer attacks, covering 23 representative attacks against 9 defenses on ImageNet.
+In particular, we propose to categorize existing attacks into five categories, which enables our systematic category-wise analyses.
+These analyses lead to new findings that even challenge existing knowledge and also help determine the optimal attack hyperparameters for our attack-wise comprehensive evaluation.
+We also pay particular attention to stealthiness, by adopting diverse imperceptibility metrics and looking into new, finer-grained characteristics.
+Overall, our new insights into transferability and stealthiness lead to actionable good practices for future evaluations.
 
 ## Transfer Attack Categorization
 
+Feel free to help add any missing papers through Issues or Pull requests!
 ### Gradient Stabilization Attacks [[Our implementation]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/gradient_stabilization_attacks.py)
 + [Boosting Adversarial Attacks with Momentum (CVPR 2018)](https://arxiv.org/abs/1710.06081)
 + [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks (ICLR 2020)](https://arxiv.org/abs/1908.06281)
