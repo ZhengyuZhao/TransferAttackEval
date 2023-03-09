@@ -306,7 +306,9 @@ for i, ((images, labels), path) in enumerate(val_loader):
 print(pos)
 
 
-## RFA
+## RFA 
+## We follow the original work of RFA to use the pre-trained models provided in: https://github.com/microsoft/robust-models-transfer. 
+## Specifically, we report results for L2-Robust ImageNet Model with ResNet50 and ε=0.1 as well as Linf-Robust ImageNet Model with ResNet50 and ε=8.
 save_dir = os.path.join('../out','RFA','res50')
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
