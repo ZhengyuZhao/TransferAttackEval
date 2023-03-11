@@ -14,7 +14,7 @@ We also pay particular attention to stealthiness, by adopting diverse impercepti
 Overall, our new insights into transferability and stealthiness lead to actionable good practices for future evaluations.
 
 ## Transfer Attack Categorization
-Feel free to help add any missing papers through Issues or Pull requests!
+**Feel free to help add any missing papers through Issues or Pull requests!**
 
 ### Gradient Stabilization Attacks [[Our implementation]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/gradient_stabilization_attacks.py)
 + [Boosting Adversarial Attacks with Momentum (CVPR 2018)](https://arxiv.org/abs/1710.06081)
