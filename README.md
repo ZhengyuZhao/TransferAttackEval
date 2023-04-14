@@ -61,6 +61,8 @@ Overall, our new insights into transferability and stealthiness lead to actionab
 + [Training Meta-Surrogate Model for Transferable Adversarial Attack (arXiv 2021)](https://arxiv.org/abs/2109.01983)
 + [Rethinking Adversarial Transferability from a Data Distribution Perspective (ICLR 2022)](https://openreview.net/forum?id=gVRhIEajG1k)
 + [Boosting the Adversarial Transferability of Surrogate Model with Dark Knowledge (arXiv 2022)](https://arxiv.org/abs/2206.08316)
++ [Going Further: Flatness at the Rescue of Early Stopping for Adversarial Example Transferability (arXiv 2023)](https://arxiv.org/abs/2304.02688)
+
 
 ### Generative Modeling Attacks
 + [Generative Adversarial Perturbations (CVPR 2018)](https://arxiv.org/abs/1712.02328) [[code]](https://github.com/OmidPoursaeed/Generative_Adversarial_Perturbations)
