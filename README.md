@@ -35,7 +35,7 @@ Overall, our new insights into transferability and stealthiness lead to actionab
 + [Frequency Domain Model Augmentation for Adversarial Attack (ECCV 2022)](https://arxiv.org/abs/2207.05382)
 + [Adaptive Image Transformations for Transfer-based Adversarial Attack (ECCV 2022)](https://arxiv.org/abs/2111.13844)
 + [Boosting the Transferability of Adversarial Attacks with Reverse Adversarial Perturbation (NeurIPS 2022)](https://arxiv.org/abs/2210.05968)
-+ [Incorporating Locality of Images to Generate Targeted Transferable Adversarial Examples (arXiv 2022)](https://arxiv.org/abs/2209.03716)
++ [Enhancing the Self-Universality for Transferable Targeted Attacks (CVPR 2023)](https://arxiv.org/abs/2209.03716)
 
 ### Feature Disruption Attacks [[Our implementation]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/feature_disruption_attacks.py)
 + [Transferable Adversarial Perturbations (ECCV 2018)](https://openaccess.thecvf.com/content_ECCV_2018/html/Bruce_Hou_Transferable_Adversarial_Perturbations_ECCV_2018_paper.html)
@@ -52,7 +52,6 @@ Overall, our new insights into transferability and stealthiness lead to actionab
 + [An Intermediate-level Attack Framework on The Basis of Linear Regression (TPAMI 2022)](https://arxiv.org/abs/2203.10723)
 + [Boosting Adversarial Transferability via Fusing Logits of Top-1 Decomposed Feature (arXiv 2023)](https://arxiv.org/abs/2305.01361)
 
-
 ### Surrogate Refinement Attacks [[Our implementation]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/surrogate_refinement_attacks.py)
 + [Learning Transferable Adversarial Examples via Ghost Networks (AAAI 2020)](https://arxiv.org/abs/1812.03413)
 + [Skip Connections Matter: On the Transferability of Adversarial Examples Generated with ResNets (ICLR 2020)](https://arxiv.org/abs/2002.05990)
@@ -63,8 +62,10 @@ Overall, our new insights into transferability and stealthiness lead to actionab
 + [Training Meta-Surrogate Model for Transferable Adversarial Attack (arXiv 2021)](https://arxiv.org/abs/2109.01983)
 + [Rethinking Adversarial Transferability from a Data Distribution Perspective (ICLR 2022)](https://openreview.net/forum?id=gVRhIEajG1k)
 + [Boosting the Adversarial Transferability of Surrogate Model with Dark Knowledge (arXiv 2022)](https://arxiv.org/abs/2206.08316)
++ [Minimizing Maximum Model Discrepancy for Transferable Black-box Targeted Attacks (CVPR 2023)](https://arxiv.org/abs/2212.09035)
++ [Towards Transferable Targeted Adversarial Examples (CVPR 2023)](https://yunhefeng.me/lab/common_files/towards_transferable_targeted.pdf)
++ [StyLess: Boosting the Transferability of Adversarial Examples (CVPR 2023)](https://arxiv.org/abs/2304.11579)
 + [Going Further: Flatness at the Rescue of Early Stopping for Adversarial Example Transferability (arXiv 2023)](https://arxiv.org/abs/2304.02688)
-
 
 ### Generative Modeling Attacks
 + [Generative Adversarial Perturbations (CVPR 2018)](https://arxiv.org/abs/1712.02328) [[code]](https://github.com/OmidPoursaeed/Generative_Adversarial_Perturbations)
