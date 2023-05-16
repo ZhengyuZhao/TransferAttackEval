@@ -50,6 +50,7 @@ Overall, our new insights into transferability and stealthiness lead to actionab
 + [Feature Importance-aware Transferable Adversarial Attacks (ICCV 2021)](https://arxiv.org/abs/2107.14185)
 + [Improving Adversarial Transferability via Neuron Attribution-Based Attacks (CVPR 2022)](https://arxiv.org/abs/2204.00008)
 + [An Intermediate-level Attack Framework on The Basis of Linear Regression (TPAMI 2022)](https://arxiv.org/abs/2203.10723)
++ [Introducing Competition to Boost the Transferability of Targeted Adversarial Examples through Clean Feature Mixup (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/papers/Byun_Introducing_Competition_To_Boost_the_Transferability_of_Targeted_Adversarial_Examples_CVPR_2023_paper.pdf)
 + [Boosting Adversarial Transferability via Fusing Logits of Top-1 Decomposed Feature (arXiv 2023)](https://arxiv.org/abs/2305.01361)
 
 ### Surrogate Refinement Attacks [[Our implementation]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/surrogate_refinement_attacks.py)
