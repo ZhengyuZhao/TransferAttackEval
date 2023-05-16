@@ -64,7 +64,7 @@ Overall, our new insights into transferability and stealthiness lead to actionab
 + [Rethinking Adversarial Transferability from a Data Distribution Perspective (ICLR 2022)](https://openreview.net/forum?id=gVRhIEajG1k)
 + [Boosting the Adversarial Transferability of Surrogate Model with Dark Knowledge (arXiv 2022)](https://arxiv.org/abs/2206.08316)
 + [Minimizing Maximum Model Discrepancy for Transferable Black-box Targeted Attacks (CVPR 2023)](https://arxiv.org/abs/2212.09035)
-+ [Towards Transferable Targeted Adversarial Examples (CVPR 2023)](https://yunhefeng.me/lab/common_files/towards_transferable_targeted.pdf)
++ [Towards Transferable Targeted Adversarial Examples (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Towards_Transferable_Targeted_Adversarial_Examples_CVPR_2023_paper.pdf)
 + [StyLess: Boosting the Transferability of Adversarial Examples (CVPR 2023)](https://arxiv.org/abs/2304.11579)
 + [Going Further: Flatness at the Rescue of Early Stopping for Adversarial Example Transferability (arXiv 2023)](https://arxiv.org/abs/2304.02688)
 
