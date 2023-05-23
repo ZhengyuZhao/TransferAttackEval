@@ -8,8 +8,6 @@ from torchvision.datasets.folder import default_loader, IMG_EXTENSIONS
 import json
 import pickle
 
-import pyutils.io as io
-
 class Preprocessing_Layer(torch.nn.Module):
     def __init__(self, mean, std):
         super(Preprocessing_Layer, self).__init__()
@@ -132,7 +130,6 @@ class ImagePathDataset(VisionDataset):
 
     @classmethod
     def from_path(cls, config_path, *args, **kwargs):
-#         return cls(config=io.read_json(config_path), *args, **kwargs)
         with open(config_path, mode="r") as f:
             return cls(config=json.loads(f.read()), *args, **kwargs)
 
