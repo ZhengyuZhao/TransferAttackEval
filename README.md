@@ -23,6 +23,7 @@ We reveal that existing problematic evaluations have indeed caused misleading co
 <p align="center">
 <img src="./transfer_pipeline.png" width='500'>
 </p>
+
 ### Gradient Stabilization Attacks [[Our implementation]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/gradient_stabilization_attacks.py)
 + [Boosting Adversarial Attacks with Momentum (CVPR 2018)](https://arxiv.org/abs/1710.06081)
 + [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks (ICLR 2020)](https://arxiv.org/abs/1908.06281)
