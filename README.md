@@ -2,12 +2,27 @@
 
 [Revisiting Transferable Adversarial Image Examples: Attack Categorization, Evaluation Guidelines, and New Insights](https://arxiv.org/abs/2310.11850). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes, Qi Li, Chao Shen.
 
+We identify two main problems in common evaluation practices: 
+<br>(1) for attack transferability, lack of systematic, one-to-one attack comparison and fair hyperparameter settings;
+<br>(2) for attack stealthiness, simply no comparisons. 
 
-Transferable adversarial examples raise critical security concerns in real-world, black-box attack scenarios. However, in this work, we identify two main problems in common evaluation practices: (1) For attack transferability, lack of systematic, one-to-one attack comparison and fair hyperparameter settings. (2) For attack stealthiness, simply no comparisons. To address these problems, we establish new evaluation guidelines by (1) proposing a novel attack categorization strategy and conducting systematic and fair intra-category analyses on transferability, and (2) considering diverse imperceptibility metrics and finer-grained stealthiness characteristics from the perspective of attack traceback. To this end, we provide the first large-scale evaluation of transferable adversarial examples on ImageNet, involving 23 representative attacks against 9 representative defenses. Our evaluation leads to a number of new insights, including consensus-challenging ones: (1) Under a fair attack hyperparameter setting, one early attack method, DI, actually outperforms all the follow-up methods. (2) A state-of-the-art defense, DiffPure, actually gives a false sense of (white-box) security since it is indeed largely bypassed by our (black-box) transferable attacks. (3) Even when all attacks are bounded by the same Lp norm, they lead to dramatically different stealthiness performance, which negatively correlates with their transferability performance. Overall, our work demonstrates that existing problematic evaluations have indeed caused misleading conclusions and missing points, and as a result, hindered the assessment of the actual progress in this field.
+We address them by
+<br>(1) proposing a novel attack categorization strategy and conducting systematic and fair intra-category analyses on transferability;
+<br>(2) considering diverse imperceptibility metrics and finer-grained stealthiness characteristics from the perspective of attack traceback. 
 
-## Attack Categorization
-**Feel free to help add any missing papers through Issues or Pull requests!**
+We draw new insights, e.g.,
+<br>(1) under a fair attack hyperparameter setting, one early attack method, DI, actually outperforms all the follow-up methods;
+<br>(2) popular diffusion-based defenses give a false sense of security since it is indeed largely bypassed by (black-box) transferable attacks;
+<br>(3) even when all attacks are bounded by the same Lp norm, they lead to dramatically different stealthiness performance, which negatively correlates with their transferability performance. 
 
+We provide the first large-scale evaluation of transferable adversarial examples on ImageNet, involving 23 representative attacks against 9 representative defenses. 
+We reveal that existing problematic evaluations have indeed caused misleading conclusions and missing points, and as a result, hindered the assessment of the actual progress in this field.
+
+## Attack Categorization (Feel free to help add more papers!)
+
+<p align="center">
+<img src="./transfer_pipeline.png" width='500'>
+</p>
 ### Gradient Stabilization Attacks [[Our implementation]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/gradient_stabilization_attacks.py)
 + [Boosting Adversarial Attacks with Momentum (CVPR 2018)](https://arxiv.org/abs/1710.06081)
 + [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks (ICLR 2020)](https://arxiv.org/abs/1908.06281)
@@ -45,6 +60,7 @@ Transferable adversarial examples raise critical security concerns in real-world
 + [An Intermediate-level Attack Framework on The Basis of Linear Regression (TPAMI 2022)](https://arxiv.org/abs/2203.10723)
 + [Introducing Competition to Boost the Transferability of Targeted Adversarial Examples through Clean Feature Mixup (CVPR 2023)](https://arxiv.org/abs/2305.14846)
 + [Diversifying the High-level Features for better Adversarial Transferability (BMVC 2023)](https://arxiv.org/abs/2304.10136)
++ [Improving Adversarial Transferability via Intermediate-level Perturbation Decay (NeurIPS 2023)](https://arxiv.org/abs/2304.13410v3)
 + [Boosting Adversarial Transferability via Fusing Logits of Top-1 Decomposed Feature (arXiv 2023)](https://arxiv.org/abs/2305.01361)
 
 ### Surrogate Refinement Attacks [[Our implementation]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/surrogate_refinement_attacks.py)
@@ -87,4 +103,6 @@ Transferable adversarial examples raise critical security concerns in real-world
 + [Evaluating Adversarial Attacks on ImageNet: A Reality Check on Misclassification Classes (NeurIPSw 2021)](https://arxiv.org/abs/2111.11056)
 + [Investigating Top-k White-Box and Transferable Black-Box Attack (CVPR 2022)](https://arxiv.org/abs/2204.00089)
 + [Transfer Attacks Revisited: A Large-Scale Empirical Study in Real Computer Vision Settings (IEEE S&P 2022)](https://arxiv.org/abs/2204.04063)
++ [A Survey on Transferability of Adversarial Examples across Deep Neural Networks (arXiv 2023)](https://arxiv.org/abs/2310.17626)
++ [Towards Evaluating Transfer-based Attacks Systematically, Practically, and Fairly (NeurIPS 2023)](https://arxiv.org/abs/2311.01323)
 + [Why Does Little Robustness Help? Understanding and Improving Adversarial Transferability from Surrogate Training (IEEE S&P 2024)](https://arxiv.org/abs/2307.07873v4)
