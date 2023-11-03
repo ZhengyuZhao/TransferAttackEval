@@ -2,21 +2,22 @@
 
 [Revisiting Transferable Adversarial Image Examples: Attack Categorization, Evaluation Guidelines, and New Insights](https://arxiv.org/abs/2310.11850). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes, Qi Li, Chao Shen.
 
-We identify two main problems in common evaluation practices: 
+**We identify** two main problems in common evaluation practices: 
 <br>(1) for attack transferability, lack of systematic, one-to-one attack comparison and fair hyperparameter settings;
 <br>(2) for attack stealthiness, simply no comparisons. 
 
-We address them by
+**We address** these problems by
 <br>(1) proposing a novel attack categorization strategy and conducting systematic and fair intra-category analyses on transferability;
 <br>(2) considering diverse imperceptibility metrics and finer-grained stealthiness characteristics from the perspective of attack traceback. 
 
-We draw new insights, e.g.,
+**We draw** new insights, e.g.,
 <br>(1) under a fair attack hyperparameter setting, one early attack method, DI, actually outperforms all the follow-up methods;
 <br>(2) popular diffusion-based defenses give a false sense of security since it is indeed largely bypassed by (black-box) transferable attacks;
 <br>(3) even when all attacks are bounded by the same Lp norm, they lead to dramatically different stealthiness performance, which negatively correlates with their transferability performance. 
 
-We provide the first large-scale evaluation of transferable adversarial examples on ImageNet, involving 23 representative attacks against 9 representative defenses. 
-We reveal that existing problematic evaluations have indeed caused misleading conclusions and missing points, and as a result, hindered the assessment of the actual progress in this field.
+**We provide** the first large-scale evaluation of transferable adversarial examples on ImageNet, involving 23 representative attacks against 9 representative defenses. 
+
+**We reveal** that existing problematic evaluations have indeed caused misleading conclusions and missing points, and as a result, hindered the assessment of the actual progress in this field.
 
 ## Attack Categorization (Feel free to help add more papers!)
 
