@@ -3,11 +3,11 @@
 [Revisiting Transferable Adversarial Image Examples: Attack Categorization, Evaluation Guidelines, and New Insights](https://arxiv.org/abs/2310.11850). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes, Qi Li, Chao Shen.
 
 **We identify** two main problems in common evaluation practices: 
-<br>(1) for attack transferability, lack of systematic, one-to-one attack comparison and fair hyperparameter settings;
-<br>(2) for attack stealthiness, simply no comparisons. 
+<br>(1) for attack transferability, lack of systematic, one-to-one attack comparisons and fair hyperparameter settings;
+<br>(2) for attack stealthiness, simply no evaluations. 
 
 **We address** these problems by
-<br>(1) proposing a novel attack categorization strategy and conducting systematic and fair intra-category analyses on transferability;
+<br>(1) introducing a complete attack categorization and conducting systematic and fair intra-category analyses on transferability;
 <br>(2) considering diverse imperceptibility metrics and finer-grained stealthiness characteristics from the perspective of attack traceback. 
 
 **We draw** new insights, e.g.,
