@@ -19,7 +19,7 @@
 
 **We reveal** that existing problematic evaluations have indeed caused misleading conclusions and missing points, and as a result, hindered the assessment of the actual progress in this field.
 
-## Attack Categorization (Feel free to help add more papers!)
+## Attack Categorization (Welcome more papers!)
 
 <p align="center">
 <img src="./transfer_pipeline.png" width='500'>
