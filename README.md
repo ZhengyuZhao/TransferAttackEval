@@ -47,6 +47,7 @@
 + [Enhancing the Self-Universality for Transferable Targeted Attacks (CVPR 2023)](https://arxiv.org/abs/2209.03716)
 + [Improving the Transferability of Adversarial Samples by Path-Augmented Method (CVPR 2023)](https://arxiv.org/abs/2303.15735)
 + [The Ultimate Combo: Boosting Adversarial Example Transferability by Composing Data Augmentations (arXiv 2023)](https://arxiv.org/abs/2312.11309)
++ [Structure Invariant Transformation for better Adversarial Transferability (ICCV 2023)](https://arxiv.org/pdf/2309.14700)
 + [Boosting Adversarial Transferability across Model Genus by Deformation-Constrained Warping (AAAI 2024)](https://arxiv.org/abs/2402.03951)
 + [Boosting the Transferability of Adversarial Examples via Local Mixup and Adaptive Step Size (arXiv 2024)](https://arxiv.org/abs/2401.13205)
 
