@@ -89,6 +89,7 @@
 + [An Adaptive Model Ensemble Adversarial Attack for Boosting Adversarial Transferability (ICCV 2023)](https://arxiv.org/abs/2308.02897)
 + [Backpropagation Path Search On Adversarial Transferability (ICCV 2023)](https://arxiv.org/abs/2308.07625)
 + [Going Further: Flatness at the Rescue of Early Stopping for Adversarial Example Transferability (arXiv 2023)](https://arxiv.org/abs/2304.02688)
++ [Making Substitute Models More Bayesian Can Enhance Transferability of Adversarial Examples (ICLR 2023)](https://openreview.net/pdf?id=bjPPypbLre)
 + [Why Does Little Robustness Help? Understanding and Improving Adversarial Transferability from Surrogate Training (IEEE S&P 2024)](https://arxiv.org/abs/2307.07873v4)
 
 ### Generative Modeling Attacks
@@ -100,7 +101,6 @@
 + [Boosting Transferability of Targeted Adversarial Examples via Hierarchical Generative Networks (ECCV 2022)](https://arxiv.org/abs/2107.01809)
 + [Dynamic Generative Targeted Attacks With Pattern Injection (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Feng_Dynamic_Generative_Targeted_Attacks_With_Pattern_Injection_CVPR_2023_paper.html)
 + [Towards Transferable Targeted Adversarial Examples (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Towards_Transferable_Targeted_Adversarial_Examples_CVPR_2023_paper.html)
-+ [Minimizing Maximum Model Discrepancy for Transferable Black-box Targeted Attacks (CVPR 23)](https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_Minimizing_Maximum_Model_Discrepancy_for_Transferable_Black-Box_Targeted_Attacks_CVPR_2023_paper.html)
 
 ## Surveys/Evaluations/Explanations
 + [Delving into Transferable Adversarial Examples and Black-box Attacks (ICLR 2017)](https://arxiv.org/abs/1611.02770)
