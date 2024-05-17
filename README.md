@@ -100,6 +100,7 @@
 + [Boosting Transferability of Targeted Adversarial Examples via Hierarchical Generative Networks (ECCV 2022)](https://arxiv.org/abs/2107.01809)
 + [Dynamic Generative Targeted Attacks With Pattern Injection (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Feng_Dynamic_Generative_Targeted_Attacks_With_Pattern_Injection_CVPR_2023_paper.html)
 + [Towards Transferable Targeted Adversarial Examples (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Towards_Transferable_Targeted_Adversarial_Examples_CVPR_2023_paper.html)
++ [Minimizing Maximum Model Discrepancy for Transferable Black-box Targeted Attacks (CVPR 23)] (https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_Minimizing_Maximum_Model_Discrepancy_for_Transferable_Black-Box_Targeted_Attacks_CVPR_2023_paper.html)
 
 ## Surveys/Evaluations/Explanations
 + [Delving into Transferable Adversarial Examples and Black-box Attacks (ICLR 2017)](https://arxiv.org/abs/1611.02770)
