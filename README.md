@@ -50,6 +50,7 @@
 + [Structure Invariant Transformation for better Adversarial Transferability (ICCV 2023)](https://arxiv.org/pdf/2309.14700)
 + [Boosting Adversarial Transferability across Model Genus by Deformation-Constrained Warping (AAAI 2024)](https://arxiv.org/abs/2402.03951)
 + [Boosting the Transferability of Adversarial Examples via Local Mixup and Adaptive Step Size (arXiv 2024)](https://arxiv.org/abs/2401.13205)
++ [Boosting Adversarial Transferability by Block Shuffle and Rotation (CVPR 2024)](https://arxiv.org/pdf/2308.10299)
 
 ### Feature Disruption Attacks [[Code for 5 representative attacks]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/feature_disruption_attacks.py)
 + [Transferable Adversarial Perturbations (ECCV 2018)](https://openaccess.thecvf.com/content_ECCV_2018/html/Bruce_Hou_Transferable_Adversarial_Perturbations_ECCV_2018_paper.html)
