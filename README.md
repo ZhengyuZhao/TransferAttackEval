@@ -115,3 +115,4 @@
 + [Towards Evaluating Transfer-based Attacks Systematically, Practically, and Fairly (NeurIPS 2023)](https://arxiv.org/abs/2311.01323)
 + [A Survey on Transferability of Adversarial Examples across Deep Neural Networks (arXiv 2023)](https://arxiv.org/abs/2310.17626)
 + [Bag of Tricks to Boost Adversarial Transferability (arXiv 2024)](https://arxiv.org/abs/2401.08734)
++ [Fragility, Robustness and Antifragility in Deep Learning (Artificial Intelligence)](https://arxiv.org/abs/2312.09821)
