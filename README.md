@@ -91,6 +91,7 @@
 + [Backpropagation Path Search On Adversarial Transferability (ICCV 2023)](https://arxiv.org/abs/2308.07625)
 + [Going Further: Flatness at the Rescue of Early Stopping for Adversarial Example Transferability (arXiv 2023)](https://arxiv.org/abs/2304.02688)
 + [Making Substitute Models More Bayesian Can Enhance Transferability of Adversarial Examples (ICLR 2023)](https://openreview.net/pdf?id=bjPPypbLre)
++ [Rethinking Model Ensemble in Transfer-based Adversarial Attacks (ICLR 2024)](https://arxiv.org/abs/2303.09105)
 + [Why Does Little Robustness Help? Understanding and Improving Adversarial Transferability from Surrogate Training (IEEE S&P 2024)](https://arxiv.org/abs/2307.07873v4)
 
 ### Generative Modeling Attacks
@@ -115,4 +116,4 @@
 + [Towards Evaluating Transfer-based Attacks Systematically, Practically, and Fairly (NeurIPS 2023)](https://arxiv.org/abs/2311.01323)
 + [A Survey on Transferability of Adversarial Examples across Deep Neural Networks (arXiv 2023)](https://arxiv.org/abs/2310.17626)
 + [Bag of Tricks to Boost Adversarial Transferability (arXiv 2024)](https://arxiv.org/abs/2401.08734)
-+ [Fragility, Robustness and Antifragility in Deep Learning (Artificial Intelligence)](https://arxiv.org/abs/2312.09821)
++ [Fragility, Robustness and Antifragility in Deep Learning (Artificial Intelligence 2024)](https://arxiv.org/abs/2312.09821)
