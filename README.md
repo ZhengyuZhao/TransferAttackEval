@@ -80,6 +80,7 @@
 + [A Little Robustness Goes a Long Way: Leveraging Robust Features for Targeted Transfer Attacks (NeurIPS 2021)](https://arxiv.org/abs/2106.02105)
 + [Early Stop and Adversarial Training Yield Better Surrogate Model: Very Non-Robust Features Harm Adversarial Transferability (OpenReview 2021)](https://openreview.net/forum?id=ECC7T-torK)
 + [Training Meta-Surrogate Model for Transferable Adversarial Attack (arXiv 2021)](https://arxiv.org/abs/2109.01983)
++ [On Improving Adversarial Transferability of Vision Transformers (ICLR2022)](https://arxiv.org/abs/2106.04169)
 + [Rethinking Adversarial Transferability from a Data Distribution Perspective (ICLR 2022)](https://openreview.net/forum?id=gVRhIEajG1k)
 + [Boosting the Adversarial Transferability of Surrogate Model with Dark Knowledge (arXiv 2022)](https://arxiv.org/abs/2206.08316)
 + [Towards Transferable Adversarial Attacks on Vision Transformers (AAAI 2022)](https://arxiv.org/abs/2109.04176)
