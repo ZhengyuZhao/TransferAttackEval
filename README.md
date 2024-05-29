@@ -116,5 +116,6 @@
 + [A Unified Approach to Interpreting and Boosting Adversarial Transferability (ICLR 2021)](https://arxiv.org/abs/2010.04055)
 + [Transfer Attacks Revisited: A Large-Scale Empirical Study in Real Computer Vision Settings (IEEE S&P 2022)](https://arxiv.org/abs/2204.04063)
 + [Towards Evaluating Transfer-based Attacks Systematically, Practically, and Fairly (NeurIPS 2023)](https://arxiv.org/abs/2311.01323)
++ [Beyond Boundaries: A Comprehensive Survey of Transferable Attacks on AI Systems (arXiv 2023)](https://arxiv.org/abs/2311.11796)
 + [A Survey on Transferability of Adversarial Examples across Deep Neural Networks (arXiv 2023)](https://arxiv.org/abs/2310.17626)
 + [Bag of Tricks to Boost Adversarial Transferability (arXiv 2024)](https://arxiv.org/abs/2401.08734)
