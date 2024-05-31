@@ -52,6 +52,7 @@
 + [Boosting Adversarial Transferability by Block Shuffle and Rotation (CVPR 2024)](https://arxiv.org/pdf/2308.10299)
 + [Learning to Transform Dynamically for Better Adversarial Transferability (CVPR 2024)](https://arxiv.org/abs/2405.14077)
 + [Boosting the Transferability of Adversarial Examples via Local Mixup and Adaptive Step Size (arXiv 2024)](https://arxiv.org/abs/2401.13205)
++ [Typography Leads Semantic Diversifying: Amplifying Adversarial Transferability across Multimodal Large Language Models (arXiv 2024)](https://arxiv.org/abs/2405.20090)
 
 ### Feature Disruption Attacks [[Code for 5 representative attacks]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/feature_disruption_attacks.py)
 + [Transferable Adversarial Perturbations (ECCV 2018)](https://openaccess.thecvf.com/content_ECCV_2018/html/Bruce_Hou_Transferable_Adversarial_Perturbations_ECCV_2018_paper.html)
