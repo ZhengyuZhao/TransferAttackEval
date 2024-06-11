@@ -1,6 +1,6 @@
 # Revisiting Transferable Adversarial Image Examples
 
-[Revisiting Transferable Adversarial Image Examples: Attack Categorization, Evaluation Guidelines, and New Insights](https://arxiv.org/abs/2310.11850). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes, Qi Li, Qian Wang, Chao Shen.
+[Revisiting Transferable Adversarial Images: Systemization, Evaluation, and New Insights](https://arxiv.org/abs/2310.11850). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes, Qi Li, Qian Wang, Chao Shen.
 
 **We identify** two main problems in common evaluation practices: 
 <br>(1) for attack transferability, lack of systematic, one-to-one attack comparisons and fair hyperparameter settings;
