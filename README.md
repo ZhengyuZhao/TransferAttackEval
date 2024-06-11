@@ -1,4 +1,4 @@
-# Revisiting Transferable Adversarial Image Examples
+# Revisiting Transferable Adversarial Images
 
 [Revisiting Transferable Adversarial Images: Systemization, Evaluation, and New Insights](https://arxiv.org/abs/2310.11850). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes, Qi Li, Qian Wang, Chao Shen.
 
