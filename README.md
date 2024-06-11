@@ -19,6 +19,13 @@
 
 **We reveal** that existing problematic evaluations have indeed caused misleading conclusions and missing points, and as a result, hindered the assessment of the actual progress in this field.
 
+## Evaluated Attacks and Defenses 
+
+<p align="center">
+<img src="./attacks.png" width='550'>
+<img src="./defenses.png" width='450'>
+</p>
+
 ## Attack Categorization (Welcome more papers!)
 
 <p align="center">
