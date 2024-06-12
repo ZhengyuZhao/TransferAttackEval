@@ -1,4 +1,4 @@
-# Revisiting Transferable Adversarial Images
+![image](https://github.com/ZhengyuZhao/TransferAttackEval/assets/28551969/c6dd2dda-5311-4b88-b185-617c381e4055)# Revisiting Transferable Adversarial Images
 
 [Revisiting Transferable Adversarial Images: Systemization, Evaluation, and New Insights](https://arxiv.org/abs/2310.11850). Zhengyu Zhao*, Hanwei Zhang*, Renjue Li*, Ronan Sicre, Laurent Amsaleg, Michael Backes, Qi Li, Qian Wang, Chao Shen.
 
@@ -37,7 +37,7 @@
 + [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks (ICLR 2020)](https://arxiv.org/abs/1908.06281)
 + [Boosting Adversarial Transferability through Enhanced Momentum (BMVC 2021)](https://arxiv.org/abs/2103.10609)
 + [Improving Adversarial Transferability with Spatial Momentum (arXiv 2022)](https://arxiv.org/abs/2203.13479)
-+ [Boosting Adversarial Transferability by Achieving Flat Local Maxima (NIPS 2023)](https://arxiv.org/pdf/2306.05225)
++ [Boosting Adversarial Transferability by Achieving Flat Local Maxima (NeurIPS 2023)](https://arxiv.org/pdf/2306.05225)
 + [Transferable Adversarial Attack for Both Vision Transformers and Convolutional Networks via Momentum Integrated Gradients (ICCV 2023)](https://openaccess.thecvf.com/content/ICCV2023/papers/Ma_Transferable_Adversarial_Attack_for_Both_Vision_Transformers_and_Convolutional_Networks_ICCV_2023_paper.pdf)
 + [Boosting Adversarial Transferability via Gradient Relevance Attack (ICCV 2023)](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Boosting_Adversarial_Transferability_via_Gradient_Relevance_Attack_ICCV_2023_paper.pdf)
 
@@ -104,6 +104,7 @@
 + [Backpropagation Path Search On Adversarial Transferability (ICCV 2023)](https://arxiv.org/abs/2308.07625)
 + [Going Further: Flatness at the Rescue of Early Stopping for Adversarial Example Transferability (arXiv 2023)](https://arxiv.org/abs/2304.02688)
 + [Making Substitute Models More Bayesian Can Enhance Transferability of Adversarial Examples (ICLR 2023)](https://openreview.net/pdf?id=bjPPypbLre)
++ [Blurred-Dilated Method for Adversarial Attacks (NeurIPS 2023)](https://papers.nips.cc/paper_files/paper/2023/hash/b6fa3ed9624c184bd73e435123bd576a-Abstract-Conference.html)
 + [Rethinking Model Ensemble in Transfer-based Adversarial Attacks (ICLR 2024)](https://arxiv.org/abs/2303.09105)
 + [Why Does Little Robustness Help? Understanding and Improving Adversarial Transferability from Surrogate Training (S&P 2024)](https://arxiv.org/abs/2307.07873v4)
 + [Improving Transferable Targeted Adversarial Attacks with Model Self-Enhancement (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Improving_Transferable_Targeted_Adversarial_Attacks_with_Model_Self-Enhancement_CVPR_2024_paper.html)
