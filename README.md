@@ -63,7 +63,7 @@
 + [Learning to Transform Dynamically for Better Adversarial Transferability (CVPR 2024)](https://arxiv.org/abs/2405.14077)
 + [Boosting the Transferability of Adversarial Examples via Local Mixup and Adaptive Step Size (arXiv 2024)](https://arxiv.org/abs/2401.13205)
 + [Typography Leads Semantic Diversifying: Amplifying Adversarial Transferability across Multimodal Large Language Models (arXiv 2024)](https://arxiv.org/abs/2405.20090)
-+ [Strong Transferable Adversarial Attacks via Ensembled Asymptotically Normal Distribution Learning (CVPR)](https://openaccess.thecvf.com/content/CVPR2024/html/Fang_Strong_Transferable_Adversarial_Attacks_via_Ensembled_Asymptotically_Normal_Distribution_Learning_CVPR_2024_paper.html)
++ [Strong Transferable Adversarial Attacks via Ensembled Asymptotically Normal Distribution Learning (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Fang_Strong_Transferable_Adversarial_Attacks_via_Ensembled_Asymptotically_Normal_Distribution_Learning_CVPR_2024_paper.html)
 
 ### Feature Disruption Attacks [[Code for 5 representative attacks]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/feature_disruption_attacks.py)
 + [Transferable Adversarial Perturbations (ECCV 2018)](https://openaccess.thecvf.com/content_ECCV_2018/html/Bruce_Hou_Transferable_Adversarial_Perturbations_ECCV_2018_paper.html)
@@ -109,8 +109,8 @@
 + [Rethinking Model Ensemble in Transfer-based Adversarial Attacks (ICLR 2024)](https://arxiv.org/abs/2303.09105)
 + [Why Does Little Robustness Help? Understanding and Improving Adversarial Transferability from Surrogate Training (S&P 2024)](https://arxiv.org/abs/2307.07873v4)
 + [Improving Transferable Targeted Adversarial Attacks with Model Self-Enhancement (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Improving_Transferable_Targeted_Adversarial_Attacks_with_Model_Self-Enhancement_CVPR_2024_paper.html)
-+ [AGS: Affordable and Generalizable Substitute Training for Transferable Adversarial Attack (AAAI2024)](https://ojs.aaai.org/index.php/AAAI/article/view/28365)
-+ [Ensemble Diversity Facilitates Adversarial Transferability (CVPR2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Ensemble_Diversity_Facilitates_Adversarial_Transferability_CVPR_2024_paper.html)
++ [AGS: Affordable and Generalizable Substitute Training for Transferable Adversarial Attack (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/28365)
++ [Ensemble Diversity Facilitates Adversarial Transferability (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Ensemble_Diversity_Facilitates_Adversarial_Transferability_CVPR_2024_paper.html)
 
 ### Generative Modeling Attacks
 + [Generative Adversarial Perturbations (CVPR 2018)](https://arxiv.org/abs/1712.02328)
