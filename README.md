@@ -107,6 +107,7 @@
 + [Going Further: Flatness at the Rescue of Early Stopping for Adversarial Example Transferability (arXiv 2023)](https://arxiv.org/abs/2304.02688)
 + [Making Substitute Models More Bayesian Can Enhance Transferability of Adversarial Examples (ICLR 2023)](https://openreview.net/pdf?id=bjPPypbLre)
 + [Blurred-Dilated Method for Adversarial Attacks (NeurIPS 2023)](https://papers.nips.cc/paper_files/paper/2023/hash/b6fa3ed9624c184bd73e435123bd576a-Abstract-Conference.html)
++ [Rethinking the Backward Propagation for Adversarial Transferability (NeurIPS 2023)](https://arxiv.org/abs/2306.12685)
 + [Rethinking Model Ensemble in Transfer-based Adversarial Attacks (ICLR 2024)](https://arxiv.org/abs/2303.09105)
 + [Why Does Little Robustness Help? Understanding and Improving Adversarial Transferability from Surrogate Training (S&P 2024)](https://arxiv.org/abs/2307.07873v4)
 + [Improving Transferable Targeted Adversarial Attacks with Model Self-Enhancement (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Improving_Transferable_Targeted_Adversarial_Attacks_with_Model_Self-Enhancement_CVPR_2024_paper.html)
