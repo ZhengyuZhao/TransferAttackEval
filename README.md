@@ -111,7 +111,7 @@
 + [Rethinking the Backward Propagation for Adversarial Transferability (NeurIPS 2023)](https://arxiv.org/abs/2306.12685)
 + [Rethinking Model Ensemble in Transfer-based Adversarial Attacks (ICLR 2024)](https://arxiv.org/abs/2303.09105)
 + [Why Does Little Robustness Help? Understanding and Improving Adversarial Transferability from Surrogate Training (S&P 2024)](https://arxiv.org/abs/2307.07873v4)
-+ [Enhance Stealthiness and Transferability of Adversarial Attacks with Class Activation Mapping Ensemble Attack (NDSS2024)](https://www.ndss-symposium.org/ndss-paper/enhance-stealthiness-and-transferability-of-adversarial-attacks-with-class-activation-mapping-ensemble-attack/)
++ [Enhance Stealthiness and Transferability of Adversarial Attacks with Class Activation Mapping Ensemble Attack (NDSS 2024)](https://www.ndss-symposium.org/ndss-paper/enhance-stealthiness-and-transferability-of-adversarial-attacks-with-class-activation-mapping-ensemble-attack/)
 + [Improving Transferable Targeted Adversarial Attacks with Model Self-Enhancement (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Improving_Transferable_Targeted_Adversarial_Attacks_with_Model_Self-Enhancement_CVPR_2024_paper.html)
 + [AGS: Affordable and Generalizable Substitute Training for Transferable Adversarial Attack (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/28365)
 + [Ensemble Diversity Facilitates Adversarial Transferability (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Ensemble_Diversity_Facilitates_Adversarial_Transferability_CVPR_2024_paper.html)
