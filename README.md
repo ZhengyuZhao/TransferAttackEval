@@ -43,6 +43,7 @@
 + [Boosting Adversarial Transferability via Gradient Relevance Attack (ICCV 2023)](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Boosting_Adversarial_Transferability_via_Gradient_Relevance_Attack_ICCV_2023_paper.pdf)
 + [Enhancing Transferable Adversarial Attacks on Vision Transformers through Gradient Normalization Scaling and High-Frequency Adaptation (ICLR 2024)](https://openreview.net/forum?id=1BuWv9poWz)
 + [Enhancing Adversarial Transferability Through Neighborhood Conditional Sampling (arxiv 2024)](https://arxiv.org/abs/2405.16181)
++ [Improving Integrated Gradient-based Transferable Adversarial Examples by Refining the Integration Path (AAAI 2025)](https://arxiv.org/abs/2412.18844)
 
 ### Input Augmentation Attacks [[Code for 5 representative attacks]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/input_augmentation_attacks.py)
 + [Improving Transferability of Adversarial Examples with Input Diversity (CVPR 2019)](https://arxiv.org/abs/1803.06978)
@@ -68,6 +69,9 @@
 + [Typography Leads Semantic Diversifying: Amplifying Adversarial Transferability across Multimodal Large Language Models (arXiv 2024)](https://arxiv.org/abs/2405.20090)
 + [Strong Transferable Adversarial Attacks via Ensembled Asymptotically Normal Distribution Learning (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Fang_Strong_Transferable_Adversarial_Attacks_via_Ensembled_Asymptotically_Normal_Distribution_Learning_CVPR_2024_paper.html)
 + [Learning to Transform Dynamically for Better Adversarial Transferability (CVPR2024)](https://arxiv.org/pdf/2405.14077v1)
++ [Everywhere Attack: Attacking Locally and Globally to Boost Targeted Transferability (AAAI 2025)](https://arxiv.org/abs/2501.00707)
++ [Boosting Adversarial Transferability with Spatial Adversarial Alignment (arXiv 2025)](https://arxiv.org/abs/2501.01015)
++ [S4ST: A Strong, Self-transferable, faSt, and Simple Scale Transformation for Transferable Targeted Attack (arXiv 2025)](https://arxiv.org/abs/2410.13891v2)
 
 ### Feature Disruption Attacks [[Code for 5 representative attacks]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/feature_disruption_attacks.py)
 + [Transferable Adversarial Perturbations (ECCV 2018)](https://openaccess.thecvf.com/content_ECCV_2018/html/Bruce_Hou_Transferable_Adversarial_Perturbations_ECCV_2018_paper.html)
@@ -87,6 +91,8 @@
 + [Diversifying the High-level Features for better Adversarial Transferability (BMVC 2023)](https://arxiv.org/abs/2304.10136)
 + [Improving Adversarial Transferability via Intermediate-level Perturbation Decay (NeurIPS 2023)](https://arxiv.org/abs/2304.13410v3)
 + [Boosting Adversarial Transferability via Fusing Logits of Top-1 Decomposed Feature (arXiv 2023)](https://arxiv.org/abs/2305.01361)
++ [FACL-Attack: Frequency-Aware Contrastive Learning for Transferable Adversarial Attacks (AAAI 2024)](https://arxiv.org/abs/2407.20653)
++ [Prompt-Driven Contrastive Learning for Transferable Adversarial Attacks (ECCV 2024)](https://arxiv.org/abs/2407.20657)
 
 ### Surrogate Refinement Attacks [[Code for 5 representative attacks]](https://github.com/ZhengyuZhao/TransferAttackEval/tree/main/attacks/surrogate_refinement_attacks.py)
 + [Learning Transferable Adversarial Examples via Ghost Networks (AAAI 2020)](https://arxiv.org/abs/1812.03413)
@@ -118,6 +124,7 @@
 + [Improving Transferable Targeted Adversarial Attacks with Model Self-Enhancement (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Improving_Transferable_Targeted_Adversarial_Attacks_with_Model_Self-Enhancement_CVPR_2024_paper.html)
 + [AGS: Affordable and Generalizable Substitute Training for Transferable Adversarial Attack (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/28365)
 + [Ensemble Diversity Facilitates Adversarial Transferability (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Ensemble_Diversity_Facilitates_Adversarial_Transferability_CVPR_2024_paper.html)
++ [Enhancing Adversarial Transferability with Adversarial Weight Tuning (AAAI 2025)](https://arxiv.org/abs/2408.09469)
 
 ### Generative Modeling Attacks
 + [Generative Adversarial Perturbations (CVPR 2018)](https://arxiv.org/abs/1712.02328)
@@ -129,6 +136,7 @@
 + [Dynamic Generative Targeted Attacks With Pattern Injection (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Feng_Dynamic_Generative_Targeted_Attacks_With_Pattern_Injection_CVPR_2023_paper.html)
 + [Towards Transferable Targeted Adversarial Examples (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Towards_Transferable_Targeted_Adversarial_Examples_CVPR_2023_paper.html)
 + [Perturbation Towards Easy Samples Improves Targeted Adversarial Transferability (NeurIPS 2023)](https://arxiv.org/abs/2406.05535)
++ [AIM: Additional Image Guided Generation of Transferable Adversarial Attacks (arXiv 2025)](https://arxiv.org/abs/2501.01106)
 
 ## Surveys/Evaluations/Explanations
 + [Delving into Transferable Adversarial Examples and Black-box Attacks (ICLR 2017)](https://arxiv.org/abs/1611.02770)
@@ -143,3 +151,6 @@
 + [Beyond Boundaries: A Comprehensive Survey of Transferable Attacks on AI Systems (arXiv 2023)](https://arxiv.org/abs/2311.11796)
 + [A Survey on Transferability of Adversarial Examples across Deep Neural Networks (arXiv 2023)](https://arxiv.org/abs/2310.17626)
 + [Bag of Tricks to Boost Adversarial Transferability (arXiv 2024)](https://arxiv.org/abs/2401.08734)
++ [Towards Predicting the Success of Transfer-based Attacks by Quantifying Shared Feature Representations (arXiv 2024)](https://arxiv.org/abs/2412.05351)
++ [Understanding Model Ensemble in Transferable Adversarial Attack (arXiv 2025)](https://arxiv.org/abs/2410.06851)
++ [The Relationship Between Network Similarity and Transferability of Adversarial Attacks (arXiv 2025)](https://arxiv.org/abs/2501.18629)
