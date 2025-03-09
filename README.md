@@ -68,7 +68,6 @@
 + [Boosting the Transferability of Adversarial Examples via Local Mixup and Adaptive Step Size (arXiv 2024)](https://arxiv.org/abs/2401.13205)
 + [Typography Leads Semantic Diversifying: Amplifying Adversarial Transferability across Multimodal Large Language Models (arXiv 2024)](https://arxiv.org/abs/2405.20090)
 + [Strong Transferable Adversarial Attacks via Ensembled Asymptotically Normal Distribution Learning (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/html/Fang_Strong_Transferable_Adversarial_Attacks_via_Ensembled_Asymptotically_Normal_Distribution_Learning_CVPR_2024_paper.html)
-+ [Learning to Transform Dynamically for Better Adversarial Transferability (CVPR2024)](https://arxiv.org/pdf/2405.14077v1)
 + [Everywhere Attack: Attacking Locally and Globally to Boost Targeted Transferability (AAAI 2025)](https://arxiv.org/abs/2501.00707)
 + [Boosting Adversarial Transferability with Spatial Adversarial Alignment (arXiv 2025)](https://arxiv.org/abs/2501.01015)
 + [S4ST: A Strong, Self-transferable, faSt, and Simple Scale Transformation for Transferable Targeted Attack (arXiv 2025)](https://arxiv.org/abs/2410.13891v2)
@@ -136,6 +135,7 @@
 + [Dynamic Generative Targeted Attacks With Pattern Injection (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Feng_Dynamic_Generative_Targeted_Attacks_With_Pattern_Injection_CVPR_2023_paper.html)
 + [Towards Transferable Targeted Adversarial Examples (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Towards_Transferable_Targeted_Adversarial_Examples_CVPR_2023_paper.html)
 + [Perturbation Towards Easy Samples Improves Targeted Adversarial Transferability (NeurIPS 2023)](https://arxiv.org/abs/2406.05535)
++ [CLIP-Guided Generative Networks for Transferable Targeted Adversarial Attacks (ECCV 2024)](https://arxiv.org/abs/2407.10179)
 + [AIM: Additional Image Guided Generation of Transferable Adversarial Attacks (arXiv 2025)](https://arxiv.org/abs/2501.01106)
 
 ## Surveys/Evaluations/Explanations
